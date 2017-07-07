@@ -16,7 +16,7 @@
     <string name="textView">TextView</string>
     <string name="trailers">Trailers:</string>
     <string name="name">Name</string>
-
+    <string name="top_rated_movies">Top Rated Movies</string>
     <string name="reviews1">Reviews:</string>
     <string name="movie_poster_text">Movie Poster Here</string>
     <string name="error_for_trailer">There was an error getting the Trailers</string>
@@ -32,6 +32,6 @@
 
     <!--Add your api key here -->
 
-    <string name="api_key_query">***************************</string>
+    <string name="api_key_query">283f0845ac774cf4fa4307dd9adfbee5</string>
 
 </resources>

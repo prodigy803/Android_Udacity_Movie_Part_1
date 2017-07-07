@@ -84,6 +84,20 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.action_top_rated:
+                b=true;
+                mediumType=true;
+                Uri.Builder uri_builder_for_top_rated = new Uri.Builder();
+                uri_builder_for_top_rated.scheme("https")
+                        .authority("api.themoviedb.org")
+                        .appendPath("3")
+                        .appendPath("movie")
+                        .appendPath("top_rated")
+                        .appendQueryParameter("api_key",getString(R.string.api_key_query));
+                String addressForTopRated = uri_builder_for_top_rated.build().toString();
+                recyclerView(addressForTopRated);
+                return true;
+
             case R.id.action_now_playing_movies:
                 b = true;
                 mediumType = true;
