@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">UdaMovAppV3</string>
+    <string name="settings">Settings</string>
+    <string name="dev_details">Developer Details</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="upcoming_tv_show">Upcoming TV Shows</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="popular_tv_shows">Popular TV Shows</string>
+    <string name="now_playing_movies">Movies Right NOW</string>
+    <string name="on_air_tv_shows">On AIR TV Shows</string>
+    <string name="top_rated_tv_show">Top Rated TV Shows</string>
+    <string name="title_activity_detailed">DetailedActivity</string>
+    <string name="sharedItemId">Shared Item Id</string>
+    <string name="mark_as_favortie">Mark As \n Favorite</string>
+    <string name="random_string">adasdasdfadfsasdfasdfasdfasdfnb agfjuanfalsbdfjbdfklbdnfkjasbnf;kasbdnf;kbdfas;kdjabnf;lbdnfo;adfadfadfadfadfadfadfsafdadfp[asdfk</string>
+    <string name="textView">TextView</string>
+    <string name="trailers">Trailers:</string>
+    <string name="name">Name</string>
+
+    <string name="reviews1">Reviews:</string>
+    <string name="movie_poster_text">Movie Poster Here</string>
+    <string name="error_for_trailer">There was an error getting the Trailers</string>
+    <string name="error_for_reviews">There was an error getting the Reviews</string>
+
+
+    <string name="api_authority">https</string>
+    <string name="api_basic_movie_url_authority">api.themoviedb.org</string>
+    <string name="api_poster_url_authority">image.tmdb.org</string>
+
+    <string name="PIC_BASE_URL">http://image.tmdb.org/t/p/w185/</string>
+    <string name="Youtube_Video_Url">https://www.youtube.com/watch?v=</string>
+
+    <!--Add your api key here -->
+
+    <string name="api_key_query">***************************</string>
+
+</resources>
